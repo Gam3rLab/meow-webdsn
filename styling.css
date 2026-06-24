@@ -7,6 +7,7 @@ nav ul {
     background-color: #1f4e5f;
     height: 60px;
     text-align: center;
+    padding-right: 0;
     margin: 0;
 }
 nav a {
@@ -36,17 +37,17 @@ nav li {
     margin: 30px auto;
     border: 2px solid #1f4e5f;
     background-color: #ffffff;
-    padding: 30px 25px;
+    padding: 50px 40px;
     border-radius: 10px;
 }
+
 .cardRow{
-    width:90%;
-    height:470px;
-    margin:30px auto;
+    width:2100px;
+    height:500px;
+    margin:auto;
     border: 2px solid;
     border-radius: 5px;
     display: flex;
-    background-color:#dbdbdb;
 }
 
 img{
@@ -56,25 +57,13 @@ img{
 
 
 .card{
-    height:310px;
+    height:250px;
     width:350px;
     border:2px solid #1f4e5f;
     background-color: antiquewhite;
     border-radius:8px;
     display: flex;
     flex-direction: column;
-    margin: 80px 1px 1px 100px;
-    overflow: hidden;
+    height:300px;
+    margin: 100px 1px 1px 100px;
 }
-
-.cardTitle{}
-
-.cardText{
-    font-size:50px;
-    color:#ffce80;
-    text-align: center;
-    text-decoration: none;
-    
-}
-
-
