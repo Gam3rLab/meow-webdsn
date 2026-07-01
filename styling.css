@@ -137,3 +137,14 @@ hr{
   background-color: #555;
   border: #333 solid 2px;
 }
+
+.contactlink {
+    color: darkblue;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.contactlink:hover {
+    color: blue;
+    text-decoration: bold;
+}
